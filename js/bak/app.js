@@ -115,22 +115,20 @@ var customSearch;
 		})
 	}
 	function setWaves() {
-		// Waves.attach('.flat-btn', ['waves-button']);
-		// Waves.attach('.float-btn', ['waves-button', 'waves-float']);
-		// Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
-		// Waves.attach('.flat-box', ['waves-block']);
-		// Waves.attach('.float-box', ['waves-block', 'waves-float']);
-		// Waves.attach('.waves-image');
-		// Waves.init();
+		Waves.attach('.flat-btn', ['waves-button']);
+		Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+		Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+		Waves.attach('.flat-box', ['waves-block']);
+		Waves.attach('.float-box', ['waves-block', 'waves-float']);
+		Waves.attach('.waves-image');
+		Waves.init();
 	}
 	function setScrollReveal() {
-		// const $reveal = $('.reveal');
-		// if ($reveal.length === 0) return;
+		const $reveal = $('.reveal');
+		if ($reveal.length === 0) return;
 
-		// const sr = ScrollReveal({ distance: 0 });
-		// sr.reveal('.reveal', {
-		// 	duration: 0
-		// })
+		const sr = ScrollReveal({ distance: 0 });
+		sr.reveal('.reveal', 50);
 	}
 	function setTocToggle() {
 		const $toc = $('.toc-wrapper');
