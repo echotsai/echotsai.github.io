@@ -3,6 +3,66 @@
   
     
     <entry>
+      <title><![CDATA[Markdown 语法练习]]></title>
+      <url>/2017/05/29/Markdown%E8%AF%AD%E6%B3%95%E7%BB%83%E4%B9%A0/</url>
+      <content type="html"><![CDATA[<blockquote>
+<p>We believe that writing is about content, about what you want to say – not about fancy formatting. </p>
+<p>我们坚信写作写的是内容，所思所想，而不是花样格式。<br>— Ulysses for Mac</p>
+</blockquote>
+<p>“Markdown 作为一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。” <a href="http://www.jianshu.com/p/1e402922ee32" target="_blank" rel="external">[引]</a></p>
+<p>最好的练习就是实践。为了更快熟悉Markdown的语法，我便以其语法说明文档为范本，做以下的进一步练习。</p>
+<p>为了方便识别记忆，空格都用了下划线<code>_</code>表示。</p>
+<h4 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h4><p>一级标题 –&gt; #<em><br>二级标题 –&gt; ##</em><br>三级标题 –&gt; ###<em><br>四级标题 –&gt; ####</em><br>五级标题 –&gt; #####<em><br>六级标题 –&gt; ######</em></p>
+<h4 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h4><p>分为有序列表和无序列表。<br>-有序列表：<br>直接在文字前加<code>1.</code> <code>2.</code> <code>3.</code> 符号<br>要和文字之间加上一个字符的空格</p>
+<p>-无序列表：<br>直接在文字前加<code>+</code> <code>-</code> <code>*</code>符合<br>同样的，要和文字之间加上一个字符的空格</p>
+<h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><p>为了突出该部分内容是引用而来的，可以在段落或句子的文字前面加<code>&gt;</code><br>其后要和文字之间加上一个字<a href="">符的空格</a></p>
+<h4 id="图片与链接"><a href="#图片与链接" class="headerlink" title="图片与链接"></a>图片与链接</h4><p>当需要插入图片时，输入 <code>!</code> + <code>[</code>要插入图片的内容<code>]</code> + <code>(</code>链接地址<code>)</code></p>
+<p>当需要插入链接时，输入<code>[</code>要插入链接的内容<code>]</code> + <code>(</code>链接地址<code>)</code></p>
+<h4 id="粗体与斜体"><a href="#粗体与斜体" class="headerlink" title="粗体与斜体"></a>粗体与斜体</h4><p>如果要做斜体格式，输入<code>*</code>斜体内容<code>*</code><br>如果要做粗体格式，输入<code>**</code>粗体内容 <code>**</code></p>
+<h4 id="代码框-block-code"><a href="#代码框-block-code" class="headerlink" title="代码框 (block code)"></a>代码框 (block code)</h4><p>如果需要创建1个代码区块：</p>
+<ol>
+<li>可以用<code>&lt;pre&gt;</code> 和 <code>&lt;code&gt;</code> 标签来把代码区块包起来，比如：<br><code>&lt;pre&gt;&lt;code&gt;</code>hello<code>&lt;/code&gt;&lt;/pre&gt;</code><pre><code>hello</code></pre>2. 或是在文字前缩进4个空格(空4个格)或是1个制表符(敲一下“tab”键)，然后上方空一行就可以了</li>
+<li>最简单的是直接用3个” ` “前后包住代码即可</li>
+</ol>
+<p>如果你不需要这么大面积的代码，只是想引用1-2个代码内容(行内代码 - inline code)，直接用” ` “前后包住代码即可</p>
+<h4 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h4><p>如果需要插入分割线，在一行中输入三个以上的连字符：<code>*</code> <code>-</code> <code>_</code> 即可生成下划线 </p>
+<h4 id="反斜杠"><a href="#反斜杠" class="headerlink" title="反斜杠"></a>反斜杠</h4><p>反斜杠可以帮助你获得某些字符本来的符号功能，<br>比如：<code>*</code> + 斜体内容 + <code>*</code> 即是 <em>斜体内容</em><br>可是，现在我只想要用<code>*</code>作为一个强调符号！不要斜体！</p>
+<p>怎么办？</p>
+<p>例如：你只需要在星号的前面加上反斜杠：<br><code>\``*``斜体内容``\``*</code> 即是 *literal asterisks*</p>
+<p>除了<code>*</code>还有这些符号也同样适用：</p>
+<pre><code>\   反斜线
+`   反引号
+*   星号
+_   底线
+{}  花括号
+[]  方括号
+()  括弧
+ #   井字号
++   加号
+-   减号
+.   英文句点
+!   惊叹号hello</code></pre>
+
+<p>####碎碎念<br>今天暂时就这些内容了，其实我正坐在去往帝都的飞机上。这是南航最大的飞机A380，双层180个舷窗。我就坐在飞机的紧急出口旁的位置，脚可以自由伸展，特别宽敞舒适。</p>
+<p>建议大家以后飞机出行，可以尝试坐在紧急出口第一排，空间大很多，“再也不用担心会脚麻了”~<br><img src="http://7xj9do.com1.z0.glb.clouddn.com/blog_2017.6.5_1.jpeg" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 从零学编程 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> Shell </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hello, Shell命令行]]></title>
       <url>/2017/05/27/Hello,%20Shell%E5%91%BD%E4%BB%A4%E8%A1%8C/</url>
       <content type="html"><![CDATA[<p>一直不理解编程的乐趣在哪里<br>但是自从开始搭建这个博客起<br>竟发现沉下心来研究也蛮有趣</p>
